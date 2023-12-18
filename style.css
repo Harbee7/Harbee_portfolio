@@ -7,3 +7,232 @@ body {
     font-family: 'Space Grotesk', sans-serif;
 font-family: 'Urbanist', sans-serif;
 }
+
+/*header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}*/
+
+.nav-link {
+    transition: 0.4s all ease-in-out;
+}
+
+.nav-link:hover {
+    border-bottom-width: 5% !important;
+    font-size:20px;
+}
+.harbee {
+    transition: 0.4s all ease-in-out !important;
+}
+.harbee:hover {
+    font-size: 35px !important;
+}
+.nav-btn {
+    font-size: 14px;
+    transition: font-size 0.3s ease !important;
+}
+.nav-btn:hover {
+    font-size:16px !important;
+    transition: font-size 0.3s ease !important;
+}
+
+/* Mobile responsiveness*/
+
+@media only screen and (max-width: 767px) {
+    /* Header section */
+    .cendme-title {
+        position: relative;
+        right: 22%;
+    }
+    .nav-btn {
+        margin-top: 20px;
+    }
+
+    /* hero section */
+    .whatsapp-image {
+        width:320px;
+    }
+    .name {
+        font-size: 40px !important;
+        width:200%;
+        margin-left: -68%;
+    }
+    .first-sec-p {
+        width:175% !important;
+        margin-left: -75%;
+    }
+    .first-sec-btn {
+        position: relative;
+        left: 12%;
+    }
+
+    /* whhat i do section */
+    .second-header {
+        font-size:40px !important;
+    }
+
+    /* stack and tools section */
+    .third-header {
+        font-size:40px !important;
+    }
+
+    /* about page */
+    .about-me {
+        font-size: 40px !important;
+    }
+
+    /* contact page */
+    .contact-details {
+        font-size: 40px !important;
+    }
+    .harbee-email {
+        font-size: 14px !important;
+    }
+
+    /* project page */
+    .fourth-section {
+        font-size: 40px !important;
+    }
+    /* little taco shop project */
+    .taco-image {
+        width: 380px;
+        padding-right: 40px;
+    }
+    .first-btn {
+        margin-left: 80px;
+        margin-bottom: 20px;
+    }
+    .second-btn {
+        margin-left: 80px;
+    }
+
+    /* netflix project */
+    .netflix-image {
+        width: 380px;
+        padding-right: 60px;
+    }
+
+    /* nutritionist project */
+    .third-btn {
+        margin-left: 80px;
+        margin-top: 20px;
+    }
+    .fourth-btn {
+        margin-left: 77px;
+        margin-top: 20px;
+    }
+    .nutritionist-img {
+        width: 380px;
+        padding-right: 60px;
+    }
+
+    /* footer section */
+    .left-copyright {
+        font-size: 15px !important;
+        margin-left: 20px !important;
+    }
+    .right-copyright {
+        font-size: 20px !important;
+        position: relative;
+        left: -62%;
+        margin-top: 20px;
+    }
+}
+
+
+/* Tablet responsiveness */
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+
+    /* Header section */
+    .cendme-title {
+        position: relative;
+        right: 8%;
+    }
+    .nav-btn {
+        margin-top: 20px;
+    }
+    .name {
+        width:200%;
+        margin-left: -60%;
+    }
+    .first-sec-p {
+        width:150% !important;
+        margin-left: -42%;
+    }
+    .first-sec-btn {
+        position: relative;
+        left: 6%;
+        margin-bottom: 50px;
+    }
+    .row-stack {
+        margin-left: 90px;
+    }
+
+    /* about section */
+    .about-me {
+        padding-top: 10% !important;
+    }
+    .about-p {
+        margin-top: 10%;
+        margin-bottom: 27% !important;
+    }
+
+    /* contact section */
+    .contact-details {
+        padding-top: 10% !important;
+    }
+    .contact-details-form {
+        margin-top: 15% !important;
+        margin-bottom: 62% !important;
+    }
+
+    /* project section */
+
+    /* little taco shop project */
+    .taco-image {
+        width: 1000px !important;
+        padding-right: 60%;
+    }
+    .first-btn {
+        margin-left: 80px;
+        margin-bottom: 20px;
+    }
+    .second-btn {
+        margin-left: 80px;
+    }
+
+    /* netflix project */
+    .netflix-image {
+        width: 900px !important;
+        padding-right: 40%;
+    }
+
+    /* Nutritionist project */
+    .third-btn {
+        margin-left: 80px;
+        margin-top: 20px;
+    }
+    .fourth-btn {
+        margin-left: 77px;
+        margin-top: 20px;
+    }
+    .nutritionist-img {
+        width: 900px !important;
+        padding-right: 40%;
+        padding-bottom: 50px !important;
+    }
+
+    /* footer section */
+    .right-copyright {
+        position: relative;
+        left: -35%;
+        margin-top: -1%;
+    }
+    .left-copyright {
+        margin-right: 15% !important;
+    }
+ 
+}
