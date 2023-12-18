@@ -6,6 +6,7 @@
 body {
     font-family: 'Space Grotesk', sans-serif;
 font-family: 'Urbanist', sans-serif;
+overflow-x: hidden !important;
 }
 
 /*header {
@@ -42,6 +43,10 @@ font-family: 'Urbanist', sans-serif;
 
 @media only screen and (max-width: 767px) {
     /* Header section */
+
+    body {
+        overflow-x: hidden !important;
+    }
     .cendme-title {
         position: relative;
         right: 22%;
@@ -88,7 +93,11 @@ font-family: 'Urbanist', sans-serif;
         font-size: 40px !important;
     }
     .harbee-email {
-        font-size: 14px !important;
+        font-size: 12px !important;
+    }
+    .contact-details-form {
+        margin-top: 15% !important;
+        margin-bottom: 62% !important;
     }
 
     /* project page */
@@ -147,6 +156,9 @@ font-family: 'Urbanist', sans-serif;
 @media screen and (min-width: 768px) and (max-width: 1023px) {
 
     /* Header section */
+    body {
+        overflow-x: hidden !important;
+    }
     .cendme-title {
         position: relative;
         right: 8%;
